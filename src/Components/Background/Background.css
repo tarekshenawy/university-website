@@ -1,0 +1,38 @@
+.background{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-image:linear-gradient(rgba(8,0,58,.7),rgba(8,0,58,.7)),url("../images/hero.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    
+}
+.content{
+    width: 500px;
+}
+.content p{
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.content button{
+    background-color: #fff;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  
+}
+.content button img{
+    width: 20px;
+    margin: 7px;
+}

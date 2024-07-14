@@ -1,0 +1,50 @@
+.about {
+    width: 90%;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-left{
+    flex-basis: 40%;
+    position: relative;
+}
+.playicon{
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    bottom: 0;
+
+}
+.aboutimage{
+    width: 100%;
+    border-radius: 10px;
+}
+.about-right{
+    flex-basis: 55%;
+   
+}
+.about-right h3{
+    color: blue;
+    margin: 2px;
+}
+.about-right p{
+    margin: 5px;
+}
+
+@media(max-width:720px){
+    .about {
+        width: 90%;
+        margin: 60px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+}
+
+

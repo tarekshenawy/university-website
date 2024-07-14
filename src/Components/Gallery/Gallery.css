@@ -1,0 +1,38 @@
+.gallery{
+    width: 90%;
+    margin: 50px auto;
+    text-align: center;
+  
+}
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+
+}
+.images img{
+    width: 90%;
+    border-radius: 10px;
+    margin: 10px;
+}
+.gallery button{
+    background-color:blue;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    color: #fff;
+    margin: 30px;
+    cursor: pointer;
+
+}
+@media(max-width:720px){
+    .images {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    
+    }
+
+}
